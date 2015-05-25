@@ -14,5 +14,6 @@
     "collaboration"
   ],
   "author": "Jan Monschke",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
