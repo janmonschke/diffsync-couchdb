@@ -1,0 +1,18 @@
+{
+  "name": "diffsync-couchdb",
+  "version": "1.0.0",
+  "description": "A CouchDB data adapter for diffsync",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "couchdb",
+    "diffsync",
+    "realtime",
+    "database",
+    "collaboration"
+  ],
+  "author": "Jan Monschke",
+  "license": "MIT"
+}
