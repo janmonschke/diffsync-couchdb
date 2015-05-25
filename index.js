@@ -16,7 +16,7 @@ CouchDBDataAdapter.prototype.storeData = function(id, data, callback){
     if(err && callback){ return callback(err); }
 
     // override the document with the current state
-    this.database.save(id, doc._rev, callback);
+    this.database.save(id, doc._rev, data, callback);
   }.bind(this));
 };
 
