@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A CouchDB data adapter for diffsync",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "couchdb",
     "diffsync",
@@ -14,6 +11,5 @@
     "collaboration"
   ],
   "author": "Jan Monschke",
-  "license": "MIT",
-  "dependencies": {}
+  "license": "MIT"
 }
