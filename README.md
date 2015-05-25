@@ -6,7 +6,7 @@ A CouchDB data adapter for [diffsync](https://github.com/janmonschke/diffsync)
 
 The CouchDB adapter needs a reference to a database object to write to. This database object is expected to have a [cradle](https://github.com/flatiron/cradle)-like interface. For reading, it uses `get(id, callback)` and for writing it uses `save(id, doc._rev, data, callback)`.
 
-```
+```javascript
   var CouchDBDataAdapter = require('diffsync-couchdb'),
       cradle             = require('cradle'),
       diffsync           = require('diffsync'),
