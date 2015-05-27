@@ -11,5 +11,6 @@
     "collaboration"
   ],
   "author": "Jan Monschke",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "janmonschke/diffsync-couchdb"
 }
